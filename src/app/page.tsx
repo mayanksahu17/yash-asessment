@@ -38,7 +38,7 @@ export default function Component() {
       <Card className="max-w-md mx-auto mt-20">
         <CardHeader>
           <CardTitle>Contact Us</CardTitle>
-          <CardDescription>Fill out the form below and we'll get back to you as soon as possible.</CardDescription>
+          <CardDescription>Fill out the form below and we&lsquo;ll get back to you as soon as possible.</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleSubmit} className="grid gap-4">
