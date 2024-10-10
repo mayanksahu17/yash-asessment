@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Task-3: For Those Choosing Full Stack Development
 
-## Getting Started
+Your task is to build a Simple Blogging Platform where users can create, read, update, and delete blog posts. This project involves both frontend and backend components. 📖💻
+Task Overview:
+Frontend:
 
-First, run the development server:
+    Pages/Components:
+        Homepage: Display a list of blog posts with titles, summaries, and publication dates.
+        Post Page: Show the full content of a selected blog post.
+        Create/Edit Post: Provide a form to create new blog posts or edit existing ones.
+        Post Management: Allow users to delete their posts.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    Features:
+        State Management: Use local state or a state management library to manage blog post data.
+        API Integration: Fetch blog posts from the backend API and handle CRUD operations.
+        Styling: Apply basic CSS or use a CSS framework to style the application and ensure responsiveness.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Backend:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    Technology: Choose a backend framework (e.g., Node.js with Express, Django, Flask, etc.).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    Database: Select a database (e.g., MongoDB, PostgreSQL, SQLite, etc.).
 
-## Learn More
+    API Endpoints:
+        GET /posts: Fetch all blog posts.
+        GET /posts/:id: Fetch a specific blog post by ID.
+        POST /posts: Create a new blog post.
+        PUT /posts/:id: Update an existing blog post.
+        DELETE /posts/:id: Delete a blog post.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    Features:
+        CRUD Operations: Implement create, read, update, and delete operations for blog posts.
+        Basic Validation: Ensure required fields (e.g., title, content) are provided and valid.
+        Error Handling: Handle errors and provide meaningful responses.
